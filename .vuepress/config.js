@@ -40,7 +40,7 @@ module.exports = {
 				title: "PengSir",
 				desc: "热爱编程彭先森",
 				email: "cnpenggang@qq.com",
-				avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+				logo: "/logo.png",
 				link: "https://www.bookbook.cc/"
 			}
 		],
@@ -51,15 +51,15 @@ module.exports = {
 		// 自动形成侧边导航
 		sidebar: "auto",
 		// 最后更新时间
-		lastUpdated: "Last Updated",
+		lastUpdated: "最后更新于",
 		// 作者
 		author: "Gordon",
 		// 作者头像
 		authorAvatar: "/head_icon.jpg",
 		// 备案号
-		record: "IOS123123",
+		// record: "IOS123123",
 		// 项目开始时间
-		startYear: "2017"
+		startYear: "2022"
 	},
 	markdown: {
 		lineNumbers: true
