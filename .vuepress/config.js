@@ -1,79 +1,64 @@
 module.exports = {
-  title: "vuepress-theme-reco",
-  description: 'A simple and beautiful vuepress blog theme .',
-  dest: 'public',
+  title: "Gordon",
+  description: "故事的开头总是这样，适逢其会，猝不及防。", //加载的时候一闪而过的一行字
+  dest: "public",
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    [
+      "meta",
+      {
+        name: "viewport",
+        content: "width=device-width,initial-scale=1,user-scalable=no",
+      },
+    ],
   ],
-  theme: 'reco',
+  theme: "reco",
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
-      { text: 'Docs', 
-        icon: 'reco-message',
-        items: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/' }
-        ]
+      { text: "主页", link: "/", icon: "reco-home" },
+      { text: "时间线", link: "/timeline/", icon: "reco-date" },
+      {
+        text: "文档",
+        icon: "reco-document",
+        items: [{ text: "vuepress-reco" }],
       },
-      { text: 'Contact', 
-        icon: 'reco-message',
-        items: [
-          { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' }
-        ]
-      }
     ],
-    sidebar: {
-      '/docs/theme-reco/': [
-        '',
-        'theme',
-        'plugin',
-        'api'
-      ]
-    },  
-    type: 'blog',
+    type: "blog",
     // 博客设置
     blogConfig: {
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: 'Category' // 默认 “分类”
+        text: "分类", // 默认 “分类”
       },
       tag: {
-        location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: 'Tag' // 默认 “标签”
-      }
+        location: 2, // 在导航栏菜单中所占的位置，默认3
+        text: "标签", // 默认 “标签”
+      },
     },
     friendLink: [
       {
-        title: '午后南杂',
-        desc: 'Enjoy when you can, and endure when you must.',
-        email: '1156743527@qq.com',
-        link: 'https://www.recoluan.com'
-      },
-      {
-        title: 'vuepress-theme-reco',
-        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: 'https://vuepress-theme-reco.recoluan.com'
+        title: "午后南杂",
+        desc: "Enjoy when you can, and endure when you must.",
+        email: "1156743527@qq.com",
+        link: "https://www.recoluan.com",
       },
     ],
-    logo: '/logo.png',
+    logo: "/logo.png",
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
     // 自动形成侧边导航
-    // sidebar: 'auto',
+    sidebar: "auto",
     // 最后更新时间
-    lastUpdated: 'Last Updated',
+    lastUpdated: "Last Updated",
     // 作者
-    author: 'reco_luan',
+    author: "Gordon",
     // 作者头像
-    authorAvatar: '/avatar.png',
+    authorAvatar: "/head_icon.jpg",
     // 备案号
-    record: 'xxxx',
+    record: "IOS123123",
     // 项目开始时间
-    startYear: '2017'
+    startYear: "2020",
     /**
      * 密钥 (if your blog is private)
      */
@@ -94,6 +79,6 @@ module.exports = {
     // }
   },
   markdown: {
-    lineNumbers: true
-  }
-}  
+    lineNumbers: true,
+  },
+};
