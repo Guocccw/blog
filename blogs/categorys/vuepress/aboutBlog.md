@@ -3,7 +3,7 @@ title: 关于博客
 date: 2022-01-01
 tags:
   - vuepress
-sidebar: "auto"
+sidebar: 'auto'
 categories:
   - vuepress
 sticky: 1
@@ -62,9 +62,3 @@ theme-cli init
 4. vercel 是一个国外的免费平台，可以同步到 [vercel](https://vercel.com/)
 
 ---
-
-## 三、主题
-
-```
-
-```
