@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Gordon的学习记录
-tagline: 好好学习，天天向上。
+tagline: 我只想卷死各位，或者被各位卷死。
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
@@ -11,6 +11,6 @@ tagline: 好好学习，天天向上。
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
-bgImageStyle: { height: "450px" }
+bgImageStyle: { height: '450px' }
 isShowTitleInHome: false
 ---

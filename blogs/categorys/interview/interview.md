@@ -69,4 +69,4 @@ sticky: 2
     2. float的值不为none（默认）
     3. overflow的值不为visible（默认）
     4. display的值为inline-block、table-cell、table-caption
-    5. position的值为absolute或fixed
+    5. position的值为absolute或fixed🍉
