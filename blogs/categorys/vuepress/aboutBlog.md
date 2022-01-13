@@ -60,5 +60,3 @@ theme-cli init
    git push -u origin main
    ```
 4. vercel 是一个国外的免费平台，可以同步到 [vercel](https://vercel.com/)
-
--
