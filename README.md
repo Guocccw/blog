@@ -11,6 +11,9 @@ tagline: 我只想卷死各位，或者被各位卷死。
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
-bgImageStyle: { height: '450px' }
+bgImageStyle: { height: '100vh' }
 isShowTitleInHome: false
 ---
+
+<NewFont />
+
