@@ -60,3 +60,61 @@ theme-cli init
    git push -u origin main
    ```
 4. vercel 是一个国外的免费平台，可以同步到 [vercel](https://vercel.com/)
+
+### 2. 插件的配置
+
+<font color=ff0000>**注意：**</font>插件必须执行指令安装插件后配置，才能生效
+
+1. 分页插件
+
+```
+['@vuepress-reco/vuepress-plugin-pagation', {}]
+```
+
+2. 画板娘
+
+```
+[
+  '@vuepress-reco/vuepress-plugin-kan-ban-niang',
+  {
+    theme: ['shizuku', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'miku', 'blackCat', 'z16'],
+    clean: false,
+    messages: {
+      welcome: '欢迎来到我的博客',
+      home: '谢谢你的喜欢哦',
+      theme: '大家一起努力呀',
+      close: '拜拜哦'
+    },
+    messageStyle: { right: '68px', bottom: '190px' },
+    width: 150,
+    height: 220
+  }
+]
+```
+
+3. 鼠标特效
+
+```
+[
+  'cursor-effects',
+  {
+    size: 2, // size of the particle, default: 2
+    shape: ['star'], // shape of the particle, default: 'star'
+    zIndex: 999999999 // z-index property of the canvas, default: 999999999
+  }
+]
+```
+
+4. 复制代码
+
+```
+[
+  'vuepress-plugin-nuggets-style-copy',
+  {
+    copyText: '复制代码', //vuepress复制粘贴提示插件P 先安装在配置 npm install vuepress-plugin-nuggets-style-copy --save
+    tip: {
+      content: '复制成功!'
+    }
+  }
+]
+```
