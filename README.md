@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: Gordon的学习记录
+heroText: 郭巨巨逆袭之路
 tagline: 我只想卷死各位，或者被各位卷死。
 # heroImage: /hero.png
 # heroImageStyle: {
