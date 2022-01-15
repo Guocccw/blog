@@ -47,6 +47,13 @@ module.exports = {
 				email: 'cnpenggang@qq.com',
 				logo: '/logo.png',
 				link: 'https://www.bookbook.cc/'
+			},
+			{
+				title: '小贱贱',
+				desc: '收罗各种福利的网站',
+				email: '',
+				logo: 'https://www.xiaojianjian.net/wp-content/uploads/2019/08/xiaojianjian_avatar_1-64x64.png',
+				link: 'https://www.xiaojianjian.net/'
 			}
 		],
 		logo: '/logo.png',
