@@ -274,14 +274,14 @@ export const routes = [
    </script>
    ```
 
-   ## 五、vue-router核心要点
+## 五、vue-router核心要点
 
-1. ### 传参
+ ### 1.传参
 
-   1. #### 用name传递
+  #### 1. 用name传递
 
       在路由文件src/router/index.js里配置name属性
-
+    
       ```javascript
       routes: [
           {
@@ -296,21 +296,22 @@ export const routes = [
       */
       ```
 
-   2. #### 通过 `<router-link>`  标签中的 to 传参
+   #### 2. 通过 `<router-link>`  标签中的 to 传参
 
       ```html
       <!-- 在标签中定义 name:路由的名称-->
       <router-link :to="{name:xxx,params:{key:value}}">valueString</router-link>
       ```
-
+    
       ```js
       // 接收方使用mustache表达式
       {{$route.params.key}}
       ```
 
-      
 
-   3. #### 利用url传参：配置文件里以冒号的形式设置参数
+​      
+
+   #### 3. 利用url传参：配置文件里以冒号的形式设置参数
 
    通常在router/index.js中配置
 
@@ -339,7 +340,7 @@ export const routes = [
 
    
 
-2. #### 单页面多路由区域操作
+#### 2. 单页面多路由区域操作
 
    在实际的开发中，经常有这样的需求，在一个单页面上，我们需要多个路由区域，根据不同的路由地址来在不同的区域展示不同的组件，这就是 **单页面多路由**。
 
@@ -356,7 +357,7 @@ export const routes = [
    </template>
    ```
 
-   <font color=lightgreen>在路由配置文件中，就可以通过 `name` 属性区分不同的路由区域</font>
+   <font color=green>在路由配置文件中，就可以通过 `name` 属性区分不同的路由区域</font>
 
 ```js
 export default new Router({
@@ -383,7 +384,7 @@ export default new Router({
 })
 ```
 
-3. ### vue-router 配置子路由
+### 3. vue-router 配置子路由
 
    **子菜单的路由方式，也叫子路由。**
 
@@ -466,7 +467,7 @@ export default new Router({
 
    
 
-4. ### vue-router的跳转方法
+### 4. vue-router的跳转方法
 
    ```js
    goToMenu(){
@@ -481,7 +482,7 @@ export default new Router({
 
    
 
-5. #### 404页面的设置
+#### 5. 404页面的设置
 
    ```js
    {
