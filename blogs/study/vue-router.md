@@ -280,33 +280,33 @@ export const routes = [
 
   #### 1. 用name传递
 
-      在路由文件src/router/index.js里配置name属性
-    
-      ```javascript
-      routes: [
-          {
-            path: '/',
-            name: 'Hello',
-            component: Hello
-          }
-      ]
-      /*
-      模板里(src/App.vue)用$router.name来接收
-      比如：<p>{{ $router.name}}</p>
-      */
-      ```
+  在路由文件src/router/index.js里配置name属性
+
+  ```javascript
+  routes: [
+      {
+        path: '/',
+        name: 'Hello',
+        component: Hello
+      }
+  ]
+  /*
+  模板里(src/App.vue)用$router.name来接收
+  比如：<p>{{ $router.name}}</p>
+  */
+  ```
 
    #### 2. 通过 `<router-link>`  标签中的 to 传参
 
-      ```html
-      <!-- 在标签中定义 name:路由的名称-->
-      <router-link :to="{name:xxx,params:{key:value}}">valueString</router-link>
-      ```
-    
-      ```js
-      // 接收方使用mustache表达式
-      {{$route.params.key}}
-      ```
+  ```html
+  <!-- 在标签中定义 name:路由的名称-->
+  <router-link :to="{name:xxx,params:{key:value}}">valueString</router-link>
+  ```
+
+  ```js
+  // 接收方使用mustache表达式
+  {{$route.params.key}}
+  ```
 
 
 ​      
@@ -357,7 +357,7 @@ export const routes = [
    </template>
    ```
 
-   <font color=green>在路由配置文件中，就可以通过 `name` 属性区分不同的路由区域</font>
+   <font color=red>在路由配置文件中，就可以通过 `name` 属性区分不同的路由区域</font>
 
 ```js
 export default new Router({
