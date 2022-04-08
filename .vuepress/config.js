@@ -65,7 +65,7 @@ module.exports = {
 		// 最后更新时间
 		lastUpdated: '最后更新于',
 		// 作者
-		author: 'Gordon',
+		author: 'Guoccc',
 		// 作者头像
 		authorAvatar: '/head_icon.jpg',
 		// 备案号
