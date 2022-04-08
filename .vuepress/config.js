@@ -4,7 +4,7 @@ module.exports = {
 			lang: 'zh-CN'
 		}
 	},
-	title: 'Gordon',
+	title: 'Guoccc',
 	description: '万般皆苦，唯有自渡!', //加载的时候一闪而过的一行字
 	dest: 'public',
 	head: [

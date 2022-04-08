@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 郭巨巨逆袭之路
+heroText: 郭巨巨期待明天
 tagline: 我只想卷死各位，或者被各位卷死。
 # heroImage: /hero.png
 # heroImageStyle: {
