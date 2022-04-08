@@ -5,7 +5,7 @@ tags:
   - HTML
 sidebar: 'auto'
 categories:
-  - 前端基础
+  - HTML
 ---
 
 # HTML

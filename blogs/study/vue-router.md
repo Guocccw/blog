@@ -222,7 +222,7 @@ export const routes = [
 
 ## 四、vue-router使用方式
 
-1. ### 下载
+ ### 1.	下载
 
    ```node
    npm install vue-router -S
@@ -230,7 +230,7 @@ export const routes = [
 
    
 
-2. ### 引入并使用
+### 2. 	引入并使用
 
    ```javascript
    // 在main.js中引入
@@ -242,7 +242,7 @@ export const routes = [
 
    
 
-3. ### 配置
+ ### 3.	配置
 
    ```javascript
    let router = new VueRouter({
@@ -254,7 +254,7 @@ export const routes = [
 
    
 
-4. ### 设置入口
+### 4.	设置入口
 
    ```html
    //app.vue中
@@ -340,7 +340,7 @@ export const routes = [
 
    
 
-#### 2. 单页面多路由区域操作
+### 2. 单页面多路由区域操作
 
    在实际的开发中，经常有这样的需求，在一个单页面上，我们需要多个路由区域，根据不同的路由地址来在不同的区域展示不同的组件，这就是 **单页面多路由**。
 
@@ -482,7 +482,7 @@ export default new Router({
 
    
 
-#### 5. 404页面的设置
+### 5. 404页面的设置
 
    ```js
    {

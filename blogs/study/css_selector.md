@@ -5,7 +5,7 @@ tags:
   - CSS
 sidebar: 'auto'
 categories:
-  - 前端基础
+  - CSS
 ---
 
 # 10 分钟搞懂 css 选择器

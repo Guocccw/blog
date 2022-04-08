@@ -3,6 +3,8 @@ title: 关于博客
 date: 2022-01-01
 tags:
   - vuepress
+  - vue
+  - blog
 sidebar: 'auto'
 categories:
   - vuepress

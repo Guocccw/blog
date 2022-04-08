@@ -5,7 +5,7 @@ tags:
   - NeteaseMusic
 sidebar: 'auto'
 categories:
-  - other
+  - 黑科技
 ---
 
 # PC 端网易云音乐去灰
@@ -18,9 +18,9 @@ categories:
 
 ## 开源项目
 
-​ 这里我使用的是 Github 开源项目，[**UnblockNeteaseMusic**](https://github.com/nondanee/UnblockNeteaseMusic)。所以这篇博客也相当于这个开源项目的简单使用说明。这个开源项目的功能就是解锁网易云音乐客户端变灰歌曲，本质上就是使用 QQ / 虾米 / 百度 / 酷狗 / 酷我 / 咪咕 / JOOX 音源替换变灰歌曲链接。
+ 这里我使用的是 Github 开源项目，[**UnblockNeteaseMusic**](https://github.com/nondanee/UnblockNeteaseMusic)。所以这篇博客也相当于这个开源项目的简单使用说明。这个开源项目的功能就是解锁网易云音乐客户端变灰歌曲，本质上就是使用 QQ / 虾米 / 百度 / 酷狗 / 酷我 / 咪咕 / JOOX 音源替换变灰歌曲链接。
 
-​ 这里安装和使用的教程可以参考 [**csdn 教程**](https://blog.csdn.net/weixin_44122062/article/details/120484422) ，我主要是参考这个教程来配置，这里介绍的非常详尽，关于安装方法不再赘述。
+ 这里安装和使用的教程可以参考 [**csdn 教程**](https://blog.csdn.net/weixin_44122062/article/details/120484422) ，我主要是参考这个教程来配置，这里介绍的非常详尽，关于安装方法不再赘述。
 
 ## 使用
 
