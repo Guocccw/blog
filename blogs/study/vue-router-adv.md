@@ -1,6 +1,6 @@
 ---
-title: vue路由vue-router进阶动态路由
-date: 2022-04-7
+title: vue-router进阶动态路由
+date: 2022-04-12
 tags:
   - vue-router
 sidebar: 'auto'
@@ -42,7 +42,7 @@ categories:
 
    5. [组件内的守卫](#t5)
 
-### 1. <font id=t1>全局前置守卫</font>
+### 1. 全局前置守卫
 
 > **router.beforeEach**
 
@@ -65,7 +65,7 @@ router.beforeEach((to, from, next) => {
 
 <table><tr><td bgcolor=yellow><font color=red > 非常重要：要求next（）必须调用有且只有一次</font></td></tr></table>
 
-### 2. <font id=t2>全局解析守卫</font>
+### 2. 全局解析守卫
 
 > **router.beforeResolve** 这和 `router.beforeEach` 类似，区别是在导航被确认之前，**同时在所有组件内守卫和异步路由组件被解析之后**，解析守卫就被调用。
 
@@ -85,7 +85,7 @@ router.beforeResolve** ((to, from, next) => {
 ```
 
 
-### 3. <font id=t3>全局后置钩子</font>
+### 3. 全局后置钩子
 
 > **router.afterEach**
 
@@ -94,7 +94,7 @@ router.afterEach((to, from) => {
   // 这些钩子不会接受 next 函数也不会改变导航本身
 })
 ```
-### 4. <font id=t4>路由独享的守卫</font>
+### 4. 路由独享的守卫
 
 > **beforeEnter**
 
@@ -111,7 +111,7 @@ const router = new VueRouter({
   ]
 })
 ```
-### 5. <font id=t5>组件内的守卫</font>
+### 5. 组件内的守卫
 
 > **beforeRouteEnter**
 
