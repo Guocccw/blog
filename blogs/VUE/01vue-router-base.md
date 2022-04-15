@@ -1,5 +1,5 @@
 ---
-title: vue路由vue-router
+title: vue-router基础
 date: 2022-04-7
 tags:
   - vue-router
@@ -7,8 +7,6 @@ sidebar: 'auto'
 categories:
   - vue
 ---
-
-# vue路由vue-router
 
 ## 一、 什么是vue-router?
 

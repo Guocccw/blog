@@ -1,5 +1,5 @@
 ---
-title: 10分钟搞懂盒子模型
+title: 盒子模型
 date: 2022-01-15
 tags:
   - CSS
@@ -7,8 +7,6 @@ sidebar: 'auto'
 categories:
   - CSS
 ---
-
-# 10 分钟搞懂盒子模型
 
 ## 什么是盒子模型？
 

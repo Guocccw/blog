@@ -50,7 +50,7 @@ theme-cli init
 1. 执行在终端窗口中输入`npm i` 初始化项目。
 2. 在本地预览项目是否能够成功运行。
    `npm run dev`
-   ![](../../../imgs/blog_01.jpg)
+   ![](../../imgs/blog_01.jpg)
 3. 在 github 中创建仓库，我创建的仓库名称是 BLOG
    在本地目录下执行 git 指令，初始化 git
    ```

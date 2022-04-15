@@ -1,5 +1,5 @@
 ---
-title: vue-router进阶动态路由
+title: vue-router进阶
 date: 2022-04-12
 tags:
   - vue-router

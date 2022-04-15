@@ -1,5 +1,5 @@
 ---
-title: 10分钟搞懂css选择器
+title: css选择器
 date: 2022-01-16
 tags:
   - CSS
@@ -7,8 +7,6 @@ sidebar: 'auto'
 categories:
   - CSS
 ---
-
-# 10 分钟搞懂 css 选择器
 
 ## 一、选择器
 
@@ -52,6 +50,7 @@ css 选择器是 css 的规则的一部分。
 
 ### 伪类选择器
 
+```
 :first-of-type 表示一组同级元素中其类型的第一个元素
 :last-of-type 表示一组同级元素中其类型的最后一个元素
 :only-of-type 表示没有同类型兄弟元素的元素
@@ -65,6 +64,7 @@ css 选择器是 css 的规则的一部分。
 :disabled 选择被禁用元素
 :checked 选择选中的元素
 :not(selector) 选择与 <selector> 不匹配的所有元素
+```
 
 ### 属性选择器
 
